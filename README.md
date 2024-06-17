@@ -6,7 +6,7 @@ Major changes include modification to the original design files to better align.
 
 Repository includes:
 
-Parts lis for the arena <br /> 
+Parts list and assembly instructions for the arena <br /> 
 ROS nodes for arduino based triggering<br />
 Experimental protocols for preparing flies<br />
 Example experimental firmware and configuration files<br />
