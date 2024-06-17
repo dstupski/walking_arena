@@ -6,9 +6,9 @@ Major changes include modification to the original design files to better align.
 
 Repository includes:
 
-Parts lis for the arena \n 
-ROS nodes for arduino based triggering
-Experimental protocols for preparing flies
-Example experimental firmware and configuration files
-Scripts for data pre-processing
+Parts lis for the arena <br /> 
+ROS nodes for arduino based triggering<br />
+Experimental protocols for preparing flies<br />
+Example experimental firmware and configuration files<br />
+Scripts for data pre-processing<br />
 Example Jupyter notebook for data analysis.
