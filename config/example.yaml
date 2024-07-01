@@ -6,22 +6,22 @@ baudrate: 9600
 interval: 120                     #Seconds between stimuli, two minutes should be more than enough
 trigger_array:
   -
-    - 'a'
-    - 0
+    - 'a'                        #text command sent to arduino
+    - 0                          #shows up in .bag recording file as
   -
-    - 'b'
-    - 100
+    - 'b'                        #text command sent to arduino
+    - 100                        #shows up in .bag recording file as, this is a continuous stimulus
   -
-    - 'c'
-    - 200400
+    - 'c'                        #text command sent to arduino
+    - 200400                    # shows up in .bag file as, in this case 200400 indicates a flicker event with 200ms on period and 400 ms off period (see example firmware)
   -
-    - 'd'
-    - 200200
+    - 'd'                        #text command sent to arduino
+    - 200200                    #200ms on period 200ms off period (see example firmware)
   -
-    - 'e'
-    - 200100
+    - 'e'                        #text command sent to arduino
+    - 200100                      #200ms on period 100 ms off period
 
 
-publisher: '/WalkingArena'     #Specifies the tracking node that the arena will listen to.  Somewhat an idiosyncratic oddoty of Floris's tracking software
+publisher: '/WalkingArena'     #Specifies the tracking node th
 
 
