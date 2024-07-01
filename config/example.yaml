@@ -1,0 +1,27 @@
+#Arduino parameters
+port: '/dev/ttyACM0'
+baudrate: 9600
+
+#Trigger information
+interval: 120                     #Seconds between stimuli, two minutes should be more than enough
+trigger_array:
+  -
+    - 'a'
+    - 0
+  -
+    - 'b'
+    - 100
+  -
+    - 'c'
+    - 200400
+  -
+    - 'd'
+    - 200200
+  -
+    - 'e'
+    - 200100
+
+
+publisher: '/WalkingArena'     #Specifies the tracking node that the arena will listen to.  Somewhat an idiosyncratic oddoty of Floris's tracking software
+
+
