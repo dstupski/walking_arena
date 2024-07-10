@@ -4,7 +4,7 @@ A code repository for the van Breugel lab's implementation of the walking arenas
 Major changes include modification to the original design files to better align.  ROS implementation of data recording in conjunction with MultiTracker.  
 
 
-Repository includes:
+Repository TODO:
 
 Parts list and assembly instructions for the arena <br /> 
 ROS nodes for arduino based triggering<br />
